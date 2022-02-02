@@ -64,7 +64,7 @@ function ListaPostagem() {
                   {post.autor}
                 </Typography>
                 <Typography variant="body2" component="p">
-                  {post.categoria?.descricao}
+                  {post.categoria?.categoria}
                 </Typography>
               </CardContent>
               <CardActions>
