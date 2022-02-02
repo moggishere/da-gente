@@ -28,7 +28,7 @@ function App() {
         <div style={{ minHeight: '100vh' }}>
 
           <Route exact path='/'>
-            <Login />
+            <Home />
           </Route>
 
           <Route path='/login'>
