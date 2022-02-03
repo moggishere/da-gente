@@ -4,6 +4,12 @@ import { Link } from 'react-router-dom';
 import './Sobrenos.css';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import ahro from '../../img/a.jpg';
+import jeferson from '../../img/b.jpg';
+import tais from '../../img/c.png';
+import abner from '../../img/d.jpg';
+import mirella from '../../img/e.jpg';
+import ilustra from '../../img/ilustra.png'
 
 
 function Sobrenos() {
@@ -12,9 +18,9 @@ function Sobrenos() {
             <Grid>
                 <Grid xs={12}  >
                     <Grid container justifyContent="center">
-                        <Grid item xs={6}>
+                        <Grid item xs={12}>
                             <Box >
-                                <img src="" alt="logo estante da gente" style={{ width: "100vh", height: "100vh" }} />
+                                <img src={ilustra} alt="arte estante da gente" style={{ width: "100vw" }} />
                             </Box>
                         </Grid>
                     </Grid>
@@ -23,26 +29,26 @@ function Sobrenos() {
                         <Grid item xs={6}>
                             <Box className='box-texto' paddingRight={7} paddingLeft={7}>
                                 <Box paddingBottom={2}>
-                                <Typography variant='h3' component='h3' align='center'>
-                                    O que é?
-                                </Typography>
+                                    <Typography variant='h3' component='h3' align='center'>
+                                        O que é?
+                                    </Typography>
                                 </Box>
                                 <Box paddingBottom={2} >
-                                <Typography className='espaco-letras'>
-                                  
-                                    Inspirados nas dificuldades passadas por autores nacionais na publicação de seus textos,
-                                    Criamos uma plataforma marketplace com o objetivo de conectar autores e seus públicos.
-                                  
-                                </Typography>
+                                    <Typography className='espaco-letras'>
+
+                                        Inspirados nas dificuldades passadas por autores nacionais na publicação de seus textos,
+                                        Criamos uma plataforma marketplace com o objetivo de conectar autores e seus públicos.
+
+                                    </Typography>
                                 </Box>
                             </Box>
                         </Grid>
                         <Grid item xs={6}>
                             <Box className='box-texto' paddingLeft={7} paddingRight={7}>
                                 <Box paddingBottom={2}>
-                                <Typography variant='h3' component='h3' align='center'>
-                                    Como?
-                                </Typography>
+                                    <Typography variant='h3' component='h3' align='center'>
+                                        Como?
+                                    </Typography>
                                 </Box>
                                 <Typography className='espaco-letras'>
 
@@ -54,25 +60,25 @@ function Sobrenos() {
                         <Grid item xs={6}>
                             <Box className='box-texto' paddingRight={7} paddingLeft={7}>
                                 <Box paddingBottom={2}>
-                                <Typography variant='h3' component='h3' align='center'>
-                                    Para Quem?
-                                </Typography>
+                                    <Typography variant='h3' component='h3' align='center'>
+                                        Para Quem?
+                                    </Typography>
                                 </Box>
                                 <Box paddingBottom={14} >
-                                <Typography className='espaco-letras'>
+                                    <Typography className='espaco-letras'>
 
-                                    A leitura é para todes: adultos, crianças, idosos.
+                                        A leitura é para todes: adultos, crianças, idosos.
 
-                                </Typography>
+                                    </Typography>
                                 </Box>
                             </Box>
                         </Grid>
                         <Grid item xs={6}>
                             <Box className='box-texto' paddingLeft={7} paddingRight={7}>
                                 <Box paddingBottom={2} >
-                                <Typography variant='h3' component='h3' align='center'>
-                                    Objetivos
-                                </Typography>
+                                    <Typography variant='h3' component='h3' align='center'>
+                                        Objetivos
+                                    </Typography>
                                 </Box>
                                 <Typography className='espaco-letras'>
 
@@ -98,22 +104,22 @@ function Sobrenos() {
                 </Grid>
 
                 <Grid container xs={12} justifyContent='center' alignItems='center' >
-                <Box justifyContent="center" alignItems="center">
-                    <Box  justifyContent="center" alignItems="center" >
-                            <img className='box-fotos' src="" alt="Dev Ah Ro " />
-                            </Box>
-                            <Box >
-                                <Typography variant='h5' component='h5' align='center'>
-                                    Ah Ro Yoon 
-                                </Typography>
-                                <Typography variant='h6' component='h6' align='center'>
-                                    Desenvolvedor Full Stack 
-                                </Typography>
-                                <Typography variant='h6' component='h6' align='center'>
-                                    Estudante 
-                                </Typography>
-                            </Box>
-                        <Box alignItems="center" justifyContent="center"  className='box-icones' >
+                    <Box justifyContent="center" alignItems="center">
+                        <Box justifyContent="center" alignItems="center" >
+                            <img className='box-fotos' src={ahro} alt="Dev Ah Ro" />
+                        </Box>
+                        <Box >
+                            <Typography variant='h5' component='h5' align='center'>
+                                Ah Ro Yoon
+                            </Typography>
+                            <Typography variant='h6' component='h6' align='center'>
+                                Desenvolvedor Full Stack
+                            </Typography>
+                            {/* <Typography variant='h6' component='h6' align='center'>
+                                Estudante
+                            </Typography> */}
+                        </Box>
+                        <Box alignItems="center" justifyContent="center" className='box-icones' >
                             <a href=" https://github.com/moggishere" target="_blank">
                                 <GitHubIcon style={{ fontSize: 50 }} />
                             </a>
@@ -122,28 +128,26 @@ function Sobrenos() {
 
                             </a>
                         </Box>
-                    
+
                     </Box>
                     <Box>
-                    <Box justifyContent="center" alignItems="center">
+                        <Box justifyContent="center" alignItems="center">
 
-                        <img className='box-fotos' src="" alt="Dev Jeferson" />
+                            <img className='box-fotos' src={jeferson} alt="Dev Jeferson" />
 
-                    </Box>
+                        </Box>
 
-                    <Box >
-                                <Typography variant='h5' component='h5' align='center'>
-                                    Jeferson Cambui
-                                </Typography>
-                                <Typography variant='h6' component='h6' align='center'>
-                                    Desenvolvedor Full Stack 
-                                </Typography>
-                                <Typography variant='h6' component='h6' align='center'>
-
-                                    A
-
-                                </Typography>
-                            </Box>
+                        <Box >
+                            <Typography variant='h5' component='h5' align='center'>
+                                Jeferson Cambui
+                            </Typography>
+                            <Typography variant='h6' component='h6' align='center'>
+                                Desenvolvedor Full Stack
+                            </Typography>
+                            {/* <Typography variant='h6' component='h6' align='center'>
+                                A
+                            </Typography> */}
+                        </Box>
 
                         <Box display="flex" alignItems="center" justifyContent="center" className='box-icones' >
 
@@ -160,25 +164,25 @@ function Sobrenos() {
                     <Box>
                         <Box>
 
-                        <img className='box-fotos' src="" alt="Dev Taís" />
+                            <img className='box-fotos' src={tais} alt="Dev Taís" />
 
                         </Box>
 
                         <Box >
-                                <Typography variant='h5' component='h5' align='center'>
+                            <Typography variant='h5' component='h5' align='center'>
 
-                                    Taís Ribeiro
+                                Taís Ribeiro
 
-                                </Typography>
-                                <Typography variant='h6' component='h6' align='center'>
-                                    Desenvolvedor Full Stack 
-                                </Typography>
-                                <Typography variant='h6' component='h6' align='center'>
+                            </Typography>
+                            <Typography variant='h6' component='h6' align='center'>
+                                Desenvolvedora Full Stack
+                            </Typography>
+                            {/* <Typography variant='h6' component='h6' align='center'>
 
-                                    Analista de Sistemas
+                                Analista de Sistemas
 
-                                </Typography>
-                            </Box>
+                            </Typography> */}
+                        </Box>
 
                         <Box display="flex" alignItems="center" justifyContent="center" className='box-icones'>
 
@@ -192,29 +196,29 @@ function Sobrenos() {
                             </a>
                         </Box>
                     </Box>
-                    
+
                     <Box>
                         <Box>
 
-                        <img className='box-fotos' src="" alt="Dev Abner" />
+                            <img className='box-fotos' src={abner} alt="Dev Abner" />
 
                         </Box>
 
                         <Box >
-                                <Typography variant='h5' component='h5' align='center'>
+                            <Typography variant='h5' component='h5' align='center'>
 
-                                  Abner Borges
+                                Abner Borges
 
-                                </Typography>
-                                <Typography variant='h6' component='h6' align='center'>
-                                    Desenvolvedora Full Stack 
-                                </Typography>
-                                <Typography variant='h6' component='h6' align='center'>
+                            </Typography>
+                            <Typography variant='h6' component='h6' align='center'>
+                                Desenvolvedor Full Stack
+                            </Typography>
+                            {/* <Typography variant='h6' component='h6' align='center'>
 
-                                    Analista de Sistemas
+                                Analista de Sistemas
 
-                                </Typography>
-                            </Box>
+                            </Typography> */}
+                        </Box>
 
                         <Box display="flex" alignItems="center" justifyContent="center" className='box-icones'>
 
@@ -231,23 +235,23 @@ function Sobrenos() {
                     <Box>
                         <Box>
 
-                        <img className='box-fotos' src="" alt="Dev Mirella" />
+                            <img className='box-fotos' src={mirella} alt="Dev Mirella" />
 
                         </Box>
 
                         <Box >
-                                <Typography variant='h5' component='h5' align='center'>
-                                    Mirella Mirthes
-                                </Typography>
-                                <Typography variant='h6' component='h6' align='center'>
-                                    Desenvolvedor Full Stack 
-                                </Typography>
-                                <Typography variant='h6' component='h6' align='center'>
+                            <Typography variant='h5' component='h5' align='center'>
+                                Mirella Mirthes
+                            </Typography>
+                            <Typography variant='h6' component='h6' align='center'>
+                                Desenvolvedor Full Stack
+                            </Typography>
+                            {/* <Typography variant='h6' component='h6' align='center'>
 
-                                    Operador 
+                                Operador
 
-                                </Typography>
-                            </Box>
+                            </Typography> */}
+                        </Box>
 
                         <Box display="flex" alignItems="center" justifyContent="center" className='box-icones'>
 
@@ -261,7 +265,7 @@ function Sobrenos() {
                             </a>
                         </Box>
                     </Box>
-                
+
 
 
                 </Grid>
