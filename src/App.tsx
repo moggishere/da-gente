@@ -35,7 +35,7 @@ const theme = createTheme({
     }
   },
   typography: {
-    fontFamily: 'Oswald',
+    fontFamily: 'Poppins',
     fontWeightLight: 400
   }
 })
