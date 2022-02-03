@@ -18,7 +18,6 @@ import {ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Sobrenos from './paginas/sobrenos/Sobrenos';
 
-
 function App() {
   return (
     <Provider store={store}>
