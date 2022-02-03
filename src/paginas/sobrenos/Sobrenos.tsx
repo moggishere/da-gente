@@ -14,7 +14,7 @@ function Sobrenos() {
                     <Grid container justifyContent="center">
                         <Grid item xs={6}>
                             <Box >
-                                <img src="https://i.imgur.com/iBcWVny.png" alt="logo urbanize" style={{ width: "100vh", height: "100vh" }} />
+                                <img src="" alt="logo estante da gente" style={{ width: "100vh", height: "100vh" }} />
                             </Box>
                         </Grid>
                     </Grid>
@@ -29,8 +29,10 @@ function Sobrenos() {
                                 </Box>
                                 <Box paddingBottom={2} >
                                 <Typography className='espaco-letras'>
-                                    Baseada na ODS 11 – Cidades e Comunidades Sustentáveis da ONU,
-                                    Criamos uma rede social com o objetivo de conectar pessoas através de um objetivo comum: dar vida e ocupar espaços públicos urbanos.
+                                  
+                                    Inspirados nas dificuldades passadas por autores nacionais na publicação de seus textos,
+                                    Criamos uma plataforma marketplace com o objetivo de conectar autores e seus públicos.
+                                  
                                 </Typography>
                                 </Box>
                             </Box>
@@ -43,7 +45,9 @@ function Sobrenos() {
                                 </Typography>
                                 </Box>
                                 <Typography className='espaco-letras'>
-                                    Por meio da divulgação de iniciativas individuais e de coletivos, nossa API irá conectar pessoas e/ou empresas que buscam atuar de forma ativa na promoção de revitalização e ações de resgate da qualidade de vida em parques e praças.
+
+                                    Autores serão capazes de usar nossa plataforma para a publicação de livros, dentro dela eles terão completo controle na circulação dos textos e total autonomia para precifica-los como bem entenderem.
+
                                 </Typography>
                             </Box>
                         </Grid>
@@ -56,7 +60,9 @@ function Sobrenos() {
                                 </Box>
                                 <Box paddingBottom={14} >
                                 <Typography className='espaco-letras'>
-                                    A Promoção de espaços públicos seguros e acessíveis é para todes, principalmente para crianças, mulheres, idosos e pessoas com deficiência.
+
+                                    A leitura é para todes: adultos, crianças, idosos.
+
                                 </Typography>
                                 </Box>
                             </Box>
@@ -69,12 +75,11 @@ function Sobrenos() {
                                 </Typography>
                                 </Box>
                                 <Typography className='espaco-letras'>
-                                    Estímulo à participação ativa da sociedade civil em políticas públicas;
-                                    Identificação de agentes locais com maior facilidade na identificação de demandas e resolução de conflitos;
-                                    Colaboração entre setor privado e sociedade civil;
-                                    Controle e fiscalização das ações do poder público;
-                                    Descentralização do poder público;
-                                    Formalização de parcerias resulta em espaços públicos mais qualificados e melhora imagem do setor privado frente à sociedade.
+
+                                    Estímulo à leitura de textos vindo de origens diversas.
+                                    Facilidade na transação entre escritor e leitor.
+                                    Incerção de autores de diversas camadas da sociedade.
+
                                 </Typography>
                             </Box>
                         </Grid>
@@ -84,43 +89,46 @@ function Sobrenos() {
                     <Grid item xs={6} >
                         <Box paddingBottom={7} >
                             <Typography variant='h2' component='h2' align='center' className='box-texto'>
-                                Quem faz a Urbanize?
+
+                                Quem faz a Estante da Gente?
+
                             </Typography>
                         </Box>
                     </Grid>
                 </Grid>
 
-                // foto === linkendin === GitHub
-
                 <Grid container xs={12} justifyContent='center' alignItems='center' >
                 <Box justifyContent="center" alignItems="center">
                     <Box  justifyContent="center" alignItems="center" >
-                            <img className='box-fotos' src="" alt="Dev Ah Ro" />
+                            <img className='box-fotos' src="" alt="Dev Ah Ro " />
                             </Box>
                             <Box >
                                 <Typography variant='h5' component='h5' align='center'>
-                                    Ary Yoon
+                                    Ah Ro Yoon 
                                 </Typography>
                                 <Typography variant='h6' component='h6' align='center'>
-                                    Desenvolvedora Full Stack 
+                                    Desenvolvedor Full Stack 
                                 </Typography>
                                 <Typography variant='h6' component='h6' align='center'>
-                                    vazio
+                                    Estudante 
                                 </Typography>
                             </Box>
                         <Box alignItems="center" justifyContent="center"  className='box-icones' >
-                            <a href=" https://github.com/moggishere " target="_blank">
-                                <GitHubIcon style={{ fontSize: 50, color: "#f99e29" }} />
+                            <a href=" https://github.com/moggishere" target="_blank">
+                                <GitHubIcon style={{ fontSize: 50 }} />
                             </a>
-                            <a href="https://www.linkedin.com/in/ary-yoon-31909613b/" target="_blank">
-                                <LinkedInIcon style={{ fontSize: 60, color: "#f99e29" }} />
+                            <a href="https://www.linkedin.com/in/ary-yoon-31909613b" target="_blank">
+                                <LinkedInIcon style={{ fontSize: 60 }} />
+
                             </a>
                         </Box>
                     
                     </Box>
                     <Box>
                     <Box justifyContent="center" alignItems="center">
-                        <img className='box-fotos' src="" alt="Dev Jeferson Cambui " />
+
+                        <img className='box-fotos' src="" alt="Dev Jeferson" />
+
                     </Box>
 
                     <Box >
@@ -131,78 +139,100 @@ function Sobrenos() {
                                     Desenvolvedor Full Stack 
                                 </Typography>
                                 <Typography variant='h6' component='h6' align='center'>
-                                   
+
+                                    A
+
                                 </Typography>
                             </Box>
 
                         <Box display="flex" alignItems="center" justifyContent="center" className='box-icones' >
 
-                            <a href="https://github.com/Jeecambui" target="_blank"> 
-                                <GitHubIcon style={{ fontSize: 50, color: "#f99e29" }} />
+
+                            <a href="https://github.com/Jeecambui" target="_blank">
+                                <GitHubIcon style={{ fontSize: 50 }} />
                             </a>
                             <a href="https://www.linkedin.com/in/jefersoncambui/" target="_blank">
-                                <LinkedInIcon style={{ fontSize: 60, color: "#f99e29" }} />
+                                <LinkedInIcon style={{ fontSize: 60 }} />
+
                             </a>
                         </Box>
                     </Box>
                     <Box>
                         <Box>
-                        <img className='box-fotos' src="" alt="Dev Tais Ribeiro " />
+
+                        <img className='box-fotos' src="" alt="Dev Taís" />
+
                         </Box>
 
                         <Box >
                                 <Typography variant='h5' component='h5' align='center'>
-                                    Tais Ribeiro
+
+                                    Taís Ribeiro
+
                                 </Typography>
                                 <Typography variant='h6' component='h6' align='center'>
                                     Desenvolvedor Full Stack 
                                 </Typography>
                                 <Typography variant='h6' component='h6' align='center'>
-                                   
+
+                                    Analista de Sistemas
+
                                 </Typography>
                             </Box>
 
                         <Box display="flex" alignItems="center" justifyContent="center" className='box-icones'>
 
-                            <a href="  " target="_blank">
-                                <GitHubIcon style={{ fontSize: 50, color: "#f99e29" }} />
+
+                            <a href="https://github.com/TaisRibeiroAReis " target="_blank">
+                                <GitHubIcon style={{ fontSize: 50 }} />
                             </a>
-                            <a href="https://www.linkedin.com/in/ta%C3%ADs-ribeiro-358772196/" target="_blank">
-                                <LinkedInIcon style={{ fontSize: 60, color: "#f99e29" }} />
+                            <a href="https://www.linkedin.com/in/ta%C3%ADs-ribeiro-358772196" target="_blank">
+                                <LinkedInIcon style={{ fontSize: 60 }} />
+
                             </a>
                         </Box>
                     </Box>
                     
                     <Box>
                         <Box>
-                        <img className='box-fotos' src="" alt="Dev Abner Borges" />
+
+                        <img className='box-fotos' src="" alt="Dev Abner" />
+
                         </Box>
 
                         <Box >
                                 <Typography variant='h5' component='h5' align='center'>
-                                   Abner Borges
+
+                                  Abner Borges
+
                                 </Typography>
                                 <Typography variant='h6' component='h6' align='center'>
                                     Desenvolvedora Full Stack 
                                 </Typography>
                                 <Typography variant='h6' component='h6' align='center'>
-                                    Analista Sistema
+
+                                    Analista de Sistemas
+
                                 </Typography>
                             </Box>
 
                         <Box display="flex" alignItems="center" justifyContent="center" className='box-icones'>
 
-                            <a href="https://github.com/Abner013 " target="_blank">
-                                <GitHubIcon style={{ fontSize: 50, color: "#f99e29" }} />
+
+                            <a href="https://github.com/Abner013" target="_blank">
+                                <GitHubIcon style={{ fontSize: 50 }} />
                             </a>
-                            <a href=" https://www.linkedin.com/in/abner-borges-1b227a17a/ " target="_blank">
-                                <LinkedInIcon style={{ fontSize: 60, color: "#f99e29" }} />
+                            <a href=" https://www.linkedin.com/in/abner-borges-1b227a17a" target="_blank">
+                                <LinkedInIcon style={{ fontSize: 60 }} />
+
                             </a>
                         </Box>
                     </Box>
                     <Box>
                         <Box>
-                        <img className='box-fotos' src="" alt="Dev Mirella Mirthes " />
+
+                        <img className='box-fotos' src="" alt="Dev Mirella" />
+
                         </Box>
 
                         <Box >
@@ -213,17 +243,21 @@ function Sobrenos() {
                                     Desenvolvedor Full Stack 
                                 </Typography>
                                 <Typography variant='h6' component='h6' align='center'>
-                                
+
+                                    Operador 
+
                                 </Typography>
                             </Box>
 
                         <Box display="flex" alignItems="center" justifyContent="center" className='box-icones'>
 
-                            <a href="" target="_blank">
-                                <GitHubIcon style={{ fontSize: 50, color: "#f99e29" }} />
+
+                            <a href="https://github.com/mirellamm" target="_blank">
+                                <GitHubIcon style={{ fontSize: 50 }} />
                             </a>
-                            <a href="https://www.linkedin.com/in/mirella-mirthes-61186720b/ " target="_blank">
-                                <LinkedInIcon style={{ fontSize: 60, color: "#f99e29" }} />
+                            <a href=" https://www.linkedin.com/in/mirella-mirthes-61186720b" target="_blank">
+                                <LinkedInIcon style={{ fontSize: 60 }} />
+
                             </a>
                         </Box>
                     </Box>

@@ -34,7 +34,7 @@ function ListaTema() {
 
 
   async function getTema(){
-    await busca("/tema", setTemas, {
+    await busca("/categorias", setTemas, {
       headers: {
         'Authorization': token
       }
@@ -54,7 +54,7 @@ function ListaTema() {
         <Card variant="outlined">
           <CardContent>
             <Typography color="textSecondary" gutterBottom>
-              Tema
+            {tema.categoria}
             </Typography>
             <Typography variant="h5" component="h2">
              {tema.descricao}

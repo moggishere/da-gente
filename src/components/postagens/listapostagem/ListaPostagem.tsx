@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Postagem from '../../../models/Postagem';
 import { busca } from '../../../services/Service'
-import { Box, Card, CardActions, CardContent, Button, Typography } from '@material-ui/core';
+import { Box, Card, CardActions, CardContent, Button, Typography, CardMedia } from '@material-ui/core';
 import './ListaPostagem.css';
 import { useHistory } from 'react-router-dom'
 import { useSelector } from 'react-redux';
@@ -27,7 +27,7 @@ function ListaPostagem() {
         draggable: false,
         theme: "colored",
         progress: undefined,
-    });
+      });
       history.push("/login")
 
     }
@@ -54,8 +54,14 @@ function ListaPostagem() {
           <Box m={2} >
             <Card variant="outlined">
               <CardContent>
+                <CardMedia
+                  component="img"
+                  height="250vh"
+                  image={post.foto}
+                  alt={post.titulo}
+                />
                 <Typography color="textSecondary" gutterBottom>
-                  Postagens
+                  Livros
                 </Typography>
                 <Typography variant="h5" component="h2">
                   {post.titulo}
