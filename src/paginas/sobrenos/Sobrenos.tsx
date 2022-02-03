@@ -29,8 +29,10 @@ function Sobrenos() {
                                 </Box>
                                 <Box paddingBottom={2} >
                                 <Typography className='espaco-letras'>
+                                  
                                     Inspirados nas dificuldades passadas por autores nacionais na publicação de seus textos,
                                     Criamos uma plataforma marketplace com o objetivo de conectar autores e seus públicos.
+                                  
                                 </Typography>
                                 </Box>
                             </Box>
@@ -43,7 +45,9 @@ function Sobrenos() {
                                 </Typography>
                                 </Box>
                                 <Typography className='espaco-letras'>
+
                                     Autores serão capazes de usar nossa plataforma para a publicação de livros, dentro dela eles terão completo controle na circulação dos textos e total autonomia para precifica-los como bem entenderem.
+
                                 </Typography>
                             </Box>
                         </Grid>
@@ -56,7 +60,9 @@ function Sobrenos() {
                                 </Box>
                                 <Box paddingBottom={14} >
                                 <Typography className='espaco-letras'>
+
                                     A leitura é para todes: adultos, crianças, idosos.
+
                                 </Typography>
                                 </Box>
                             </Box>
@@ -69,9 +75,11 @@ function Sobrenos() {
                                 </Typography>
                                 </Box>
                                 <Typography className='espaco-letras'>
+
                                     Estímulo à leitura de textos vindo de origens diversas.
                                     Facilidade na transação entre escritor e leitor.
                                     Incerção de autores de diversas camadas da sociedade.
+
                                 </Typography>
                             </Box>
                         </Grid>
@@ -81,7 +89,9 @@ function Sobrenos() {
                     <Grid item xs={6} >
                         <Box paddingBottom={7} >
                             <Typography variant='h2' component='h2' align='center' className='box-texto'>
+
                                 Quem faz a Estante da Gente?
+
                             </Typography>
                         </Box>
                     </Grid>
@@ -109,13 +119,16 @@ function Sobrenos() {
                             </a>
                             <a href="https://www.linkedin.com/in/ary-yoon-31909613b" target="_blank">
                                 <LinkedInIcon style={{ fontSize: 60 }} />
+
                             </a>
                         </Box>
                     
                     </Box>
                     <Box>
                     <Box justifyContent="center" alignItems="center">
+
                         <img className='box-fotos' src="" alt="Dev Jeferson" />
+
                     </Box>
 
                     <Box >
@@ -126,78 +139,100 @@ function Sobrenos() {
                                     Desenvolvedor Full Stack 
                                 </Typography>
                                 <Typography variant='h6' component='h6' align='center'>
+
                                     A
+
                                 </Typography>
                             </Box>
 
                         <Box display="flex" alignItems="center" justifyContent="center" className='box-icones' >
+
 
                             <a href="https://github.com/Jeecambui" target="_blank">
                                 <GitHubIcon style={{ fontSize: 50 }} />
                             </a>
                             <a href="https://www.linkedin.com/in/jefersoncambui/" target="_blank">
                                 <LinkedInIcon style={{ fontSize: 60 }} />
+
                             </a>
                         </Box>
                     </Box>
                     <Box>
                         <Box>
+
                         <img className='box-fotos' src="" alt="Dev Taís" />
+
                         </Box>
 
                         <Box >
                                 <Typography variant='h5' component='h5' align='center'>
+
                                     Taís Ribeiro
+
                                 </Typography>
                                 <Typography variant='h6' component='h6' align='center'>
                                     Desenvolvedor Full Stack 
                                 </Typography>
                                 <Typography variant='h6' component='h6' align='center'>
+
                                     Analista de Sistemas
+
                                 </Typography>
                             </Box>
 
                         <Box display="flex" alignItems="center" justifyContent="center" className='box-icones'>
+
 
                             <a href="https://github.com/TaisRibeiroAReis " target="_blank">
                                 <GitHubIcon style={{ fontSize: 50 }} />
                             </a>
                             <a href="https://www.linkedin.com/in/ta%C3%ADs-ribeiro-358772196" target="_blank">
                                 <LinkedInIcon style={{ fontSize: 60 }} />
+
                             </a>
                         </Box>
                     </Box>
                     
                     <Box>
                         <Box>
+
                         <img className='box-fotos' src="" alt="Dev Abner" />
+
                         </Box>
 
                         <Box >
                                 <Typography variant='h5' component='h5' align='center'>
+
                                   Abner Borges
+
                                 </Typography>
                                 <Typography variant='h6' component='h6' align='center'>
                                     Desenvolvedora Full Stack 
                                 </Typography>
                                 <Typography variant='h6' component='h6' align='center'>
+
                                     Analista de Sistemas
+
                                 </Typography>
                             </Box>
 
                         <Box display="flex" alignItems="center" justifyContent="center" className='box-icones'>
+
 
                             <a href="https://github.com/Abner013" target="_blank">
                                 <GitHubIcon style={{ fontSize: 50 }} />
                             </a>
                             <a href=" https://www.linkedin.com/in/abner-borges-1b227a17a" target="_blank">
                                 <LinkedInIcon style={{ fontSize: 60 }} />
+
                             </a>
                         </Box>
                     </Box>
                     <Box>
                         <Box>
+
                         <img className='box-fotos' src="" alt="Dev Mirella" />
+
                         </Box>
 
                         <Box >
@@ -208,17 +243,21 @@ function Sobrenos() {
                                     Desenvolvedor Full Stack 
                                 </Typography>
                                 <Typography variant='h6' component='h6' align='center'>
+
                                     Operador 
+
                                 </Typography>
                             </Box>
 
                         <Box display="flex" alignItems="center" justifyContent="center" className='box-icones'>
+
 
                             <a href="https://github.com/mirellamm" target="_blank">
                                 <GitHubIcon style={{ fontSize: 50 }} />
                             </a>
                             <a href=" https://www.linkedin.com/in/mirella-mirthes-61186720b" target="_blank">
                                 <LinkedInIcon style={{ fontSize: 60 }} />
+
                             </a>
                         </Box>
                     </Box>
