@@ -60,7 +60,7 @@ function Navbar() {
                 <Link to="/temas" className="text-decorator-none">
                 <Box mx={1} className='cursor'>
                     <Typography variant="h6" color="inherit">
-                        temas
+                        categorias
                     </Typography>
                 </Box>
                 </Link>
