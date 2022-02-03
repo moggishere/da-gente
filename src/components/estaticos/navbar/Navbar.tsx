@@ -57,7 +57,7 @@ function Navbar() {
                         </Typography>
                     </Box>
                 </Link>
-                <Link to='/sobrenos'>
+                <Link to='/sobrenos' className="text-decorator-none">
                     <Box display="flex" justifyContent="start">
                         <Box mx={1} className='cursor'>
                             <Typography variant="h6" color="inherit">
