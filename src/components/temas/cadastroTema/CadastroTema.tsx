@@ -73,7 +73,7 @@ function CadastroTema() {
                     'Authorization': token
                 }
             })
-            toast.success('Tema atualizado com sucesso', {
+            toast.success('Categoria atualizada com sucesso', {
                 position: "top-right",
                 autoClose: 2000,
                 hideProgressBar: false,
@@ -89,7 +89,7 @@ function CadastroTema() {
                     'Authorization': token
                 }
             })
-            toast.success('Tema cadastrado com sucesso', {
+            toast.success('Categoria cadastrada com sucesso', {
                 position: "top-right",
                 autoClose: 2000,
                 hideProgressBar: false,
