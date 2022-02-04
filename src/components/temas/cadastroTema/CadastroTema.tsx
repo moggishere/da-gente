@@ -105,7 +105,7 @@ function CadastroTema() {
     }
 
     function back() {
-        history.push('/categorias')
+        history.push('/temas')
     }
 
     return (
