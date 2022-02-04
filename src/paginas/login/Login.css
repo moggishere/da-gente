@@ -1,16 +1,53 @@
-.textos1{
-   font-weight: bold !important;
-}
-
-.imagem{
-    background-image: url(https://i.imgur.com/d5bMdDJ.jpg);
-    background-repeat: no-repeat;
-    width: 100vh;
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-}
 
 .text-decorator-none{
     text-decoration: none;
 }
+
+.textos1{
+   font-weight: bold !important;
+   justify-content: center !important;
+   color: black  !important;
+   /*transition: all gradien;*/
+}
+
+/*.corlog{
+    background-color: #f6f6f6;
+    border-radius:px;*/
+
+
+.imagem{
+    width: 30px;
+    height: 30px;
+    background-image: url(https://i.imgur.com/lBFgvEm.png);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-position:center;
+
+
+}
+ 
+/*caixa login cor laranja*/
+.logincon{
+    min-height: 500px;
+    width: 575px;
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 80px;
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position:left; 
+    
+    
+}
+
+/*.buttonVoltar{
+    justify-content: top;
+    transition: all 500ms ease-in-out;
+    margin-bottom: 20px;
+    transition: all 300ms ease;
+   
+  }
+*/
