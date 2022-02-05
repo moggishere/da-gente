@@ -72,6 +72,9 @@ function ListaPostagem() {
                 <Typography variant="body2" component="p">
                   {post.categoria?.categoria}
                 </Typography>
+                <Typography variant="body2" component="p">
+                  R${post.preco}
+                </Typography>
               </CardContent>
               <CardActions>
                 <Box display="flex" justifyContent="center" mb={1.5}>
