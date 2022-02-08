@@ -18,6 +18,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Sobrenos from './paginas/sobrenos/Sobrenos';
 import { createTheme, ThemeProvider } from '@material-ui/core'
+import Contato from './paginas/contato/Contato';
 
 const theme = createTheme({
   palette: {
@@ -73,6 +74,9 @@ function App() {
             </Route>
             <Route path='/sobrenos'>
               <Sobrenos />
+            </Route>
+            <Route path='/contato'>
+              <Contato />
             </Route>
 
             <Route exact path='/formularioPostagem'>

@@ -1,22 +1,23 @@
 import React from 'react';
 import { AppBar, Toolbar, Typography, Box } from '@material-ui/core';
 import { Link } from 'react-router-dom';
-import {useHistory } from 'react-router-dom'
+import { useHistory } from 'react-router-dom'
 import './Navbar.css'
 import { useSelector } from 'react-redux';
 import { TokenState } from '../../../store/tokens/tokensReducer';
 import { useDispatch } from "react-redux";
 import { addToken } from '../../../store/tokens/actions';
-import {toast} from 'react-toastify';
+import { toast } from 'react-toastify';
+import Busca from '../busca/Busca';
 
 function Navbar() {
     const token = useSelector<TokenState, TokenState["tokens"]>(
         (state) => state.tokens
-      );
+    );
     let history = useHistory();
     const dispatch = useDispatch();
-    
-    function goLogout(){
+
+    function goLogout() {
         dispatch(addToken(''));
         toast.info('Usuário deslogado', {
             position: "top-right",
@@ -33,64 +34,73 @@ function Navbar() {
 
     var navbarComponent;
 
-    if(token != ""){
+    if (token != "") {
         navbarComponent = <AppBar position="static">
-        <Toolbar variant="dense">
-            <Box className='cursor'>
-                <Typography variant="h5" color="inherit">
-                    Estante da Gente
-                </Typography>
-            </Box>
+            <Toolbar variant="dense">
+                <Box className='cursor'>
+                    <Typography variant="h5" color="inherit">
+                        Estante da Gente
+                    </Typography>
+                </Box>
 
-            <Box display="flex" justifyContent="start">
-                <Link to="/home" className="text-decorator-none">
-                    <Box mx={1} className='cursor'>
-                        <Typography variant="h6" color="inherit">
-                            home
-                        </Typography>
-                    </Box>
-                </Link>
-                <Link to="/posts" className="text-decorator-none">
-                    <Box mx={1} className='cursor'>
-                        <Typography variant="h6" color="inherit">
-                            produtos
-                        </Typography>
-                    </Box>
-                </Link>
-                <Link to='/sobrenos' className="text-decorator-none">
-                    <Box display="flex" justifyContent="start">
+                <Box display="flex" justifyContent="start">
+                    <Link to="/home" className="text-decorator-none">
                         <Box mx={1} className='cursor'>
                             <Typography variant="h6" color="inherit">
-                                sobre nós
+                                home
                             </Typography>
                         </Box>
-                    </Box>
-                </Link>
-                <Link to="/temas" className="text-decorator-none">
-                <Box mx={1} className='cursor'>
-                    <Typography variant="h6" color="inherit">
-                        categorias
-                    </Typography>
-                </Box>
-                </Link>
-                <Link to="/formularioTema" className="text-decorator-none">
-                <Box mx={1} className='cursor'>
-                    <Typography variant="h6" color="inherit">
-                        cadastrar categoria
-                    </Typography>
-                </Box>
-                </Link>
-              
+                    </Link>
+                    <Link to="/posts" className="text-decorator-none">
+                        <Box mx={1} className='cursor'>
+                            <Typography variant="h6" color="inherit">
+                                produtos
+                            </Typography>
+                        </Box>
+                    </Link>
+                    <Link to='/sobrenos' className="text-decorator-none">
+                        <Box display="flex" justifyContent="start">
+                            <Box mx={1} className='cursor'>
+                                <Typography variant="h6" color="inherit">
+                                    sobre nós
+                                </Typography>
+                            </Box>
+                        </Box>
+                    </Link>
+                    <Link to="/temas" className="text-decorator-none">
+                        <Box mx={1} className='cursor'>
+                            <Typography variant="h6" color="inherit">
+                                categorias
+                            </Typography>
+                        </Box>
+                    </Link>
+                    {/* <Link to="/formularioTema" className="text-decorator-none">
+                        <Box mx={1} className='cursor'>
+                            <Typography variant="h6" color="inherit">
+                                cadastrar categoria
+                            </Typography>
+                        </Box>
+                    </Link> */}
+
+                    <Link to="/contato" className="text-decorator-none">
+                        <Box mx={1} className='cursor'>
+                            <Typography variant="h6" color="inherit">
+                                contato
+                            </Typography>
+                        </Box>
+                    </Link>
+
                     <Box mx={1} className='cursor' onClick={goLogout}>
                         <Typography variant="h6" color="inherit">
                             logout
                         </Typography>
                     </Box>
-                
-            </Box>
 
-        </Toolbar>
-    </AppBar>
+                    <Busca />
+                </Box>
+
+            </Toolbar>
+        </AppBar>
     }
     return (
         <>
