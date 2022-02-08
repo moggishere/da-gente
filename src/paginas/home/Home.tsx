@@ -9,6 +9,9 @@ import { TokenState } from '../../store/tokens/tokensReducer';
 import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
 
+import './Carousel.css';
+import Carousel from './Carousel';
+
 function Home() {
 
     let history = useHistory();
@@ -37,11 +40,16 @@ function Home() {
     return (
         <>
             <Grid container direction="row" justifyContent="center" alignItems="center" className='caixa'>
+                                   
+                
                 <Grid alignItems="center" item xs={6}>
                     <Box paddingX={20} >
                         <Typography variant="h3" gutterBottom color="textPrimary" component="h3" align="center" className='titulo'>Seja bem vindo(a)!</Typography>
                         <Typography variant="h5" gutterBottom color="textPrimary" component="h5" align="center" className='titulo'>expresse aqui os seus pensamentos e opiniões!</Typography>
                     </Box>
+
+                    /
+
                     <Box display="flex" justifyContent="center">
                         <Box marginRight={1}>
                             <ModalPostagem />

@@ -12,7 +12,7 @@ import {toast} from 'react-toastify';
 function Navbar() {
     const token = useSelector<TokenState, TokenState["tokens"]>(
         (state) => state.tokens
-      );
+    );
     let history = useHistory();
     const dispatch = useDispatch();
     
@@ -34,7 +34,7 @@ function Navbar() {
     var navbarComponent;
 
     if(token != ""){
-        navbarComponent = <AppBar position="static">
+        navbarComponent = <AppBar position="static" className="cor">
         <Toolbar variant="dense">
             <Box className='cursor'>
                 <Typography variant="h5" color="inherit">
@@ -71,7 +71,7 @@ function Navbar() {
                     </Typography>
                 </Box>
                 </Link>
-              
+            
                     <Box mx={1} className='cursor' onClick={goLogout}>
                         <Typography variant="h6" color="inherit">
                             logout
