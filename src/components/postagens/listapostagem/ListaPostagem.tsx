@@ -53,13 +53,17 @@ function ListaPostagem() {
         posts.map(post => (
           <Box m={2} >
             <Card variant="outlined" className="caixa">
+
               <CardContent>
-                <CardMedia
-                  component="img"
-                  height="250vh"
-                  image={post.foto}
-                  alt={post.titulo}
-                />
+                <Link to={`/telaPostagem/${post.id}`}>
+                  <CardMedia
+                    component="img"
+                    height="250vh"
+                    image={post.foto}
+                    alt={post.titulo}
+                  />
+                </Link>
+
                 <Typography color="textSecondary" gutterBottom>
                   Livros
                 </Typography>
@@ -74,7 +78,7 @@ function ListaPostagem() {
                 </Typography>
                 <Typography variant="body2" component="p">
                   {post.categoria?.categoria}
-                </Typography>            
+                </Typography>
               </CardContent>
               <CardActions>
                 <Box display="flex" justifyContent="center" mb={1.5}>

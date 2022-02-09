@@ -19,6 +19,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import Sobrenos from './paginas/sobrenos/Sobrenos';
 import { createTheme, ThemeProvider } from '@material-ui/core'
 import Contato from './paginas/contato/Contato';
+import TelaPostagem from './components/postagens/telaPostagem/TelaPostagem';
 
 const theme = createTheme({
   palette: {
@@ -97,7 +98,9 @@ function App() {
             <Route path='/deletarTema/:id'>
               <DeletarTema />
             </Route>
-
+            <Route path='/telaPostagem/:id'>
+              <TelaPostagem />
+            </Route>
 
           </div>
         </Switch>
