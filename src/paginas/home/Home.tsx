@@ -35,7 +35,7 @@ function Home() {
     }, [token])
     return (
         <>
-            <Grid container direction="row" justifyContent="center" alignItems="center" className='caixa'>
+            <Grid container direction="row" justifyContent="center" alignItems="center" className='caixa mensagem-inicial'>
                 <Grid alignItems="center" item xs={12}>
                     <Box paddingX={20} >
                         <Typography variant="h3" gutterBottom color="textPrimary" component="h3" align="center" className='titulo'>Bem vinde à Estante da Gente!</Typography>
