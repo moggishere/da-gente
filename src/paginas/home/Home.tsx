@@ -54,7 +54,6 @@ function Home() {
                     </Box>
 
                 </Grid>
-                
 
                 <Grid xs={12} className='postagens'>
                     <TabPostagem />

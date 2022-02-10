@@ -20,13 +20,13 @@ import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
+
     <Provider store={store}>
       <ToastContainer />
     <Router>
       <Navbar />
       <Switch>
         <div style={{ minHeight: '100vh' }}>
-
 
           <Route path='/home'>
             <Home />

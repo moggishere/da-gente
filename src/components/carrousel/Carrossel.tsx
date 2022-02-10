@@ -9,34 +9,31 @@ function Carrossel() {
     return (
 
 <Box className='pgcarousel'>
-    <Carousel >
-        <Carousel.Item interval={3000}>
+    <Carousel fade>
+        <Carousel.Item interval={4000}>
             <img 
-            className="imgcarousel1" 
-            src="https://img.travessa.com.br/vitrine/Semana22_FEV-2022_1160.jpg" 
+            className="imgcarouse11" 
+            src="https://altabooks.com.br/wp-content/uploads/2022/01/BANNER_SITE_Os-sete-de-chicago-1-1536x512.jpg" 
             alt="First slide"/>
         </Carousel.Item>
 
         <Carousel.Item interval={4000}>
             <img
-            className="imgcarousel2"
-            src="http://livrariasparlenda.com.br/wp-content/uploads/2014/07/Banner-principal.jpg"
-            alt="Second slide"
-            />
-        </Carousel.Item>
-        <Carousel.Item interval={4000}>
-            <img
-            className="imgcarousel3"
-            src="https://inspireleitura.com.br/wp-content/uploads/2021/09/Face-1-1.png"
-            alt="Third slide"
-            />
-        </Carousel.Item>
-        <Carousel.Item interval={4000}>
-            <img
-            className="imgcarousel3"
+            className="imgcarousel1"
             src="https://altabooks.com.br/wp-content/uploads/2022/01/BANNER_SITE_Os-sete-de-chicago-1-1536x512.jpg"
-            alt="Fourth slide"
-            />
+            alt="Second slide"/>
+        </Carousel.Item>
+        <Carousel.Item interval={4000}>
+            <img
+            className="imgcarousel1"
+            src="https://altabooks.com.br/wp-content/uploads/2022/01/BANNER_SITE_Os-sete-de-chicago-1-1536x512.jpg"
+            alt="Third slide"/>
+        </Carousel.Item>
+        <Carousel.Item interval={4000}>
+            <img
+            className="imgcarousel1"
+            src="https://altabooks.com.br/wp-content/uploads/2022/01/BANNER_SITE_Os-sete-de-chicago-1-1536x512.jpg"
+            alt="Fourth slide"/>
         </Carousel.Item>
     </Carousel>
 
