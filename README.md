@@ -17,15 +17,15 @@ Da voz a autorasMulheres, LGBTQIA+ e abrir portas, paranovos escritores nomercad
 
 # Tecnologias Usadas:
 
->**Back-end = Java, SpringBoot, Swagger, MYSQL
+> *Back-end = Java, SpringBoot, Swagger, MYSQL*
 
->**Front-end = HTML, CSS, Javascript, Typescript, React, Redux, Selenium
+> *Front-end = HTML, CSS, Javascript, Typescript, React, Redux, Selenium*
 
->**IDE = Eclipse e VSCode
+> *IDE = Eclipse e VSCode*
 
 # Metodologia Ágil : 
 
-• Kaban via trello
+• *Kaban via trello*
 
 
 ### [Site do nosso projeto](https://estante-da-gente.vercel.app/login)
