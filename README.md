@@ -1,6 +1,6 @@
-**Olá somos o Estante da Gente**
+# *Olá somos o Estante da Gente*
 
-#O Projeto:
+O Projeto:
 
 • O projeto incentiva a educação e aleitura.
 • Seu impacto será sentido pelo impulsionamento de vozes marginalizadas.
@@ -8,14 +8,14 @@
 • Um Marketplace para impulsionar a leitura para todes.
 • Pesquisas apontam que aporcentagem deleitorescaiude 56% para 52%.
 
-#O Porquê !
+# O Porquê !
 
 O brasileiro lê, em média, 3 livros por ano.
 Forneceremos livros por preços justos.
 Da voz a autorasMulheres, LGBTQIA+ e abrir portas, paranovos escritores nomercado!
 
 
-#Tecnologias Usadas:
+# Tecnologias Usadas:
 
 >**Back-end = Java, SpringBoot, Swagger, MYSQL
 
@@ -23,7 +23,7 @@ Da voz a autorasMulheres, LGBTQIA+ e abrir portas, paranovos escritores nomercad
 
 >**IDE = Eclipse e VSCode
 
-#Metodologia Ágil : 
+# Metodologia Ágil : 
 
 • Kaban via trello
 
