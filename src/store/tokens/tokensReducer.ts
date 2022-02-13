@@ -1,5 +1,10 @@
 import {Action } from './actions';
 
+export interface UserState {
+    tokens: string,
+    names: string,
+    tipos: string,
+}
 export interface TokenState {
     tokens: string
 }
