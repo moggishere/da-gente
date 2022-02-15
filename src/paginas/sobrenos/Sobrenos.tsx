@@ -20,7 +20,7 @@ function Sobrenos() {
                     <Grid container justifyContent="center">
                         <Grid item xs={12}>
                             <Box >
-                                <img src={ilustra} alt="arte estante da gente" style={{ width: "100vw" }} />
+                                <img src="https://i.imgur.com/bte2YYR.png" alt="arte estante da gente" style={{ width: "100vw" }} />
                             </Box>
                         </Grid>
                     </Grid>
@@ -84,7 +84,7 @@ function Sobrenos() {
 
                                     Estímulo à leitura de textos vindo de origens diversas.
                                     Facilidade na transação entre escritor e leitor.
-                                    Incerção de autores de diversas camadas da sociedade.
+                                    Inserção de autores de diversas camadas da sociedade.
 
                                 </Typography>
                             </Box>

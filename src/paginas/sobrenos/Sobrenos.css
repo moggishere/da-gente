@@ -9,6 +9,7 @@
     height: 15vw !important;
     width: 15vw !important;
     padding: 2vh !important;
+    border-radius: 50% !important;
 }
 .icone{
     color: #f99e29!important;

@@ -17,7 +17,7 @@ import store from './store/store';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Sobrenos from './paginas/sobrenos/Sobrenos';
-import { createTheme, ThemeProvider } from '@material-ui/core'
+import { createTheme, ThemeProvider } from '@material-ui/core';
 import Contato from './paginas/contato/Contato';
 import TelaPostagem from './components/postagens/telaPostagem/TelaPostagem';
 

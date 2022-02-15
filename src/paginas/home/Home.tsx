@@ -10,6 +10,9 @@ import { Link } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import ModalTema from '../../components/temas/modalTema/ModalTema';
 
+import Carrossel from '../../components/carrousel/Carrossel'
+
+
 function Home() {
 
     let history = useHistory();
@@ -36,11 +39,11 @@ function Home() {
     return (
         <>
             <Grid container direction="row" justifyContent="center" alignItems="center" className='caixa mensagem-inicial'>
+                
+                <Carrossel />
+
+                
                 <Grid alignItems="center" item xs={12}>
-                    <Box paddingX={20} >
-                        <Typography variant="h3" gutterBottom color="textPrimary" component="h3" align="center" className='titulo'>Bem vinde à Estante da Gente!</Typography>
-                        <Typography variant="h5" gutterBottom color="textPrimary" component="h5" align="center" className='titulo'>A sua estante virtual!</Typography>
-                    </Box>
                     {/* <Box display="flex" justifyContent="center">
                         <Box marginRight={1}>
                             <ModalPostagem />
