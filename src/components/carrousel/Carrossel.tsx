@@ -10,20 +10,20 @@ function Carrossel() {
 
 <Box className='pgcarousel'>
     <Carousel fade>
-        <Carousel.Item interval={4000}>
+        <Carousel.Item interval={40000}>
             <img
             className="imgcarousel1"
             src="https://i.imgur.com/kA3rpI0.png"
             alt="Primeiro Slide"/>
         </Carousel.Item>
 
-        <Carousel.Item interval={4000}>
+        <Carousel.Item interval={40000}>
             <img
             className="imgcarousel1"
             src="https://i.imgur.com/Fnn8VYy.png"
             alt="Segundo Slide"/>
         </Carousel.Item>
-        <Carousel.Item interval={4000}>
+        <Carousel.Item interval={40000}>
             <img
             className="imgcarousel1"
             src="https://i.imgur.com/1mhBoeL.png"

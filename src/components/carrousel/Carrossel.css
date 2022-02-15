@@ -1,5 +1,6 @@
 .imgcarousel1{
-    width: 100%;
+    /* width: 100%; */
+    align-items: center;
 }
 
 .pgcarousel{
