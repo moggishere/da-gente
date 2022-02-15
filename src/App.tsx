@@ -26,7 +26,11 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
-        <div style={{ minHeight: '100vh' }}>
+      <div style={{ minHeight: '100vh' }}>
+
+          <Route exact path='/'>
+            <Home />
+          </Route>
 
           <Route path='/home'>
             <Home />

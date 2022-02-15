@@ -11,29 +11,23 @@ function Carrossel() {
 <Box className='pgcarousel'>
     <Carousel fade>
         <Carousel.Item interval={4000}>
-            <img 
-            className="imgcarouse11" 
-            src="https://altabooks.com.br/wp-content/uploads/2022/01/BANNER_SITE_Os-sete-de-chicago-1-1536x512.jpg" 
-            alt="First slide"/>
+            <img
+            className="imgcarousel1"
+            src="https://i.imgur.com/kA3rpI0.png"
+            alt="Primeiro Slide"/>
         </Carousel.Item>
 
         <Carousel.Item interval={4000}>
             <img
             className="imgcarousel1"
-            src="https://altabooks.com.br/wp-content/uploads/2022/01/BANNER_SITE_Os-sete-de-chicago-1-1536x512.jpg"
-            alt="Second slide"/>
+            src="https://i.imgur.com/Fnn8VYy.png"
+            alt="Segundo Slide"/>
         </Carousel.Item>
         <Carousel.Item interval={4000}>
             <img
             className="imgcarousel1"
-            src="https://altabooks.com.br/wp-content/uploads/2022/01/BANNER_SITE_Os-sete-de-chicago-1-1536x512.jpg"
-            alt="Third slide"/>
-        </Carousel.Item>
-        <Carousel.Item interval={4000}>
-            <img
-            className="imgcarousel1"
-            src="https://altabooks.com.br/wp-content/uploads/2022/01/BANNER_SITE_Os-sete-de-chicago-1-1536x512.jpg"
-            alt="Fourth slide"/>
+            src="https://i.imgur.com/1mhBoeL.png"
+            alt="Terceiro Slide" />
         </Carousel.Item>
     </Carousel>
 
